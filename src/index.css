@@ -1,0 +1,54 @@
+.surgicare-logo {
+  width: 60px;
+}
+.section-divider {
+  width: 100px;
+  height: 1px;
+  background-color: red;
+}
+.about-desc {
+  text-align: justify;
+}
+#surgicareService {
+  background-color: #eee;
+}
+.appointment-heading {
+  font-size: 12px;
+}
+
+#bannerSingle::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0000007a;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+ul .active {
+  color: #dc3545 !important;
+}
+.sadi-nav {
+  color: #dc3545 !important;
+}
+.spinner-border {
+  --bs-spinner-width: 1rem;
+  --bs-spinner-height: 1rem;
+  --bs-spinner-vertical-align: -0.125em;
+  --bs-spinner-border-width: 1px;
+}
+
+/* .loading-ui {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.sadi-loader {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
